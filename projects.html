@@ -142,16 +142,18 @@
 <!-- TopNavBar -->
 <nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-outline-variant">
 <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop h-20 w-full max-w-container-max mx-auto">
-<img alt="Sarah Studio" class="h-24 w-auto" src="source/logo_negro.png">
+<a href="/" aria-label="Ir al inicio de Sarah Studio S.A.">
+  <img alt="Logo de Sarah Studio" class="h-24 w-auto" src="source/logo_negro.png" draggable="false"/>
+</a>
 <div class="hidden md:flex items-center gap-8">
-<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="#">Sobre nosotros</a>
-<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="#">Servicios</a>
+<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="index.html#nosotros">Sobre nosotros</a>
+<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="index.html#servicios">Servicios</a>
 <a class="font-technical-label text-technical-label text-primary font-bold border-b border-primary" href="#">Proyectos</a>
-<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="#">Proceso</a>
+<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="index.html#proceso">Proceso</a>
 </div>
-<button class="bg-primary text-on-primary px-8 py-3 font-technical-label text-technical-label uppercase tracking-widest border border-primary hover:bg-transparent hover:text-primary transition-all duration-300">
-                Contacto
-            </button>
+<button onclick="window.location.href='index.html#contacto'" class="bg-primary text-on-primary px-8 py-3 font-technical-label text-technical-label uppercase tracking-widest border border-primary hover:bg-transparent hover:text-primary transition-all duration-300">
+    Contacto
+</button>
 </div>
 </nav>
 <main class="pt-32 pb-section-padding">
