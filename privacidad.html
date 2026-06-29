@@ -111,6 +111,9 @@
             background-color: #000000;
             color: #ffffff;
         }
+        .border-technical {
+            border: 1px solid #000000;
+        }
         body {
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -123,18 +126,33 @@
 <body class="bg-background text-on-background selection:bg-primary selection:text-on-primary">
 <!-- TopNavBar -->
 <header class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-outline-variant">
-<nav class="flex justify-between items-center px-4 md:px-20 h-20 w-full max-w-container-max mx-auto">
-<a class="font-headline-md text-headline-md font-semibold tracking-tighter text-primary" href="/">SARAH STUDIO</a>
-<div class="hidden md:flex gap-10">
-<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="#">Sobre nosotros</a>
-<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="#">Servicios</a>
-<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="#">Proyectos</a>
-<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors duration-300" href="#">Proceso</a>
+<a href="https://wa.me/593995076849?text=Hola,%20me%20gustaría%20recibir%20más%20información." 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-16 h-16 bg-[#25D366] rounded-full shadow-lg hover:bg-[#20ba5a] hover:scale-110 transition-all duration-300 ease-in-out animate-bounce-subtle"
+   aria-label="Chat on WhatsApp">
+  
+  <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397 0 11.93 0c3.166.001 6.141 1.233 8.378 3.471 2.238 2.238 3.469 5.214 3.469 8.379 0 6.582-5.337 11.93-11.87 11.93-2.01 0-3.987-.511-5.741-1.486L0 24zm6.59-4.846c1.656.983 3.283 1.503 5.336 1.503 5.385 0 9.765-4.381 9.765-9.765 0-5.385-4.38-9.766-9.765-9.766-5.389 0-9.767 4.381-9.767 9.766 0 2.152.57 4.254 1.654 5.91l-1.01 3.687 3.787-.992zM17.43 14.1c-.302-.15-1.784-.88-2.06-.98-.276-.1-.478-.15-.678.15-.2.3-.778.98-.953 1.18-.174.2-.35.225-.652.075-3.141-1.564-4.34-2.733-5.26-4.316-.24-.41-.024-.633.177-.833.18-.18.4-.467.6-.7.2-.233.266-.4.4-.667.133-.267.067-.5-.034-.7-.1-.2-.778-1.875-1.066-2.572-.28-.674-.564-.582-.778-.593-.2-.01-.43-.01-.662-.01-.233 0-.613.088-.934.438-.32.35-1.223 1.197-1.223 2.92 0 1.722 1.253 3.385 1.428 3.618.174.23 2.466 3.766 5.975 5.283.834.36 1.486.575 1.993.736.838.266 1.602.228 2.206.138.673-.1 2.06-.842 2.35-1.655.29-.813.29-1.51.203-1.655-.088-.147-.32-.234-.622-.384z"/>
+  </svg>
+</a>
+<nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-outline-variant/30">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop h-20 w-full max-w-container-max mx-auto">
+<div class="flex items-center">
+ <a href="/" aria-label="Ir al inicio de Sarah Studio S.A.">
+  <img alt="Logo de Sarah Studio" class="h-36 w-auto" src="source/logo_negro.png" draggable="false"/>
+</a>
 </div>
-<a class="hidden md:block font-technical-label text-technical-label px-6 py-2 border border-primary text-primary hover:bg-primary hover:text-on-primary transition-all duration-300" href="#">Contacto</a>
-<button class="md:hidden">
-<span class="material-symbols-outlined">menu</span>
-</button>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-300 font-technical-label text-technical-label uppercase" href="index.html#nosotros">Sobre nosotros</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-300 font-technical-label text-technical-label uppercase" href="index.html#servicios">Servicios</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-300 font-technical-label text-technical-label uppercase" href="index.html#proyectos">Proyectos</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-300 font-technical-label text-technical-label uppercase" href="index.html#proceso">Proceso</a>
+</div>
+<a class="border-technical px-6 py-2 font-technical-label text-technical-label uppercase hover:bg-primary hover:text-on-primary transition-all duration-300" href="index.html#contacto">
+                Contacto
+</a>
+</div>
 </nav>
 </header>
 <main class="pt-32 pb-section-padding">
@@ -144,7 +162,7 @@
 <span class="font-technical-label text-technical-label text-secondary uppercase tracking-[0.2em]">Documentación Legal</span>
 <h1 class="font-display-xl text-4xl md:text-display-xl text-primary mt-4 mb-2">Política de Privacidad</h1>
 <div class="w-24 h-px bg-primary mb-8"></div>
-<p class="font-technical-label text-technical-label text-secondary">ÚLTIMA ACTUALIZACIÓN: 24 DE OCTUBRE, 2024</p>
+<p class="font-technical-label text-technical-label text-secondary">ÚLTIMA ACTUALIZACIÓN: 24 DE JUNIO, 2026</p>
 </div>
 </section>
 <!-- Content Grid -->
@@ -276,43 +294,32 @@
 <div class="py-24 border-y border-primary/10">
 <h3 class="font-headline-lg text-headline-lg text-primary mb-6 italic">¿Tiene alguna consulta técnica?</h3>
 <p class="font-body-lg text-body-lg text-secondary max-w-2xl mx-auto mb-10">Estamos a su disposición para aclarar cualquier detalle sobre nuestra gestión de privacidad o procesos de seguridad.</p>
-<a class="inline-block px-12 py-4 bg-primary text-on-primary font-technical-label text-technical-label hover:bg-white hover:text-primary border border-primary transition-all duration-500 uppercase tracking-widest" href="#">Contactar al Estudio</a>
+<a class="inline-block px-12 py-4 bg-primary text-on-primary font-technical-label text-technical-label hover:bg-white hover:text-primary border border-primary transition-all duration-500 uppercase tracking-widest" href="index.html#contacto">Contactar al Estudio</a>
 </div>
 </section>
 </main>
 <!-- Footer -->
-<footer class="bg-surface-container-lowest border-t border-primary relative overflow-hidden">
-<div class="flex flex-col md:flex-row justify-between items-start gap-gutter px-4 md:px-20 py-section-padding w-full max-w-container-max mx-auto">
-<div class="flex flex-col gap-8 w-full md:w-1/3">
-<span class="font-headline-md text-headline-md font-bold text-primary">SARAH STUDIO</span>
-<p class="font-body-md text-body-md text-secondary">Excelencia en arquitectura y construcción. Transformando visiones en estructuras precisas y atemporales.</p>
+<footer class="bg-surface-container-lowest py-16 border-t border-primary">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-gutter">
+<div class="flex items-center gap-8">
+<img alt="Sarah Studio Footer" class="h-10 md: h-20" src="source/logo_negro.png"/>
+<p class="font-technical-label text-[10px] text-secondary tracking-widest uppercase">
+                    © 2026 SARAH STUDIO. TODOS LOS DERECHOS RESERVADOS.
+                </p>
 </div>
-<div class="flex flex-col gap-6">
-<span class="font-technical-label text-technical-label text-primary font-bold uppercase tracking-widest">Navegación</span>
-<div class="flex flex-col gap-4">
-<a class="font-body-md text-body-md text-secondary hover:text-primary transition-all" href="#">Proyectos</a>
-<a class="font-body-md text-body-md text-secondary hover:text-primary transition-all" href="#">Servicios</a>
-<a class="font-body-md text-body-md text-secondary hover:text-primary transition-all" href="#">Estudio</a>
+<div class="flex gap-8">
+<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors" href="avisolegal.html">AVISO LEGAL</a>
+<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors" href="privacidad.html">PRIVACIDAD</a>
+<a class="font-technical-label text-technical-label text-secondary hover:text-primary transition-colors" href="cookies.html">COOKIES</a>
 </div>
+<div class="flex gap-6">
+<a class="group" href="#">
+<span class="material-symbols-outlined text-2xl text-secondary group-hover:text-primary transition-colors">share</span>
+</a>
+<a class="group" href="#">
+<span class="material-symbols-outlined text-2xl text-secondary group-hover:text-primary transition-colors">photo_camera</span>
+</a>
 </div>
-<div class="flex flex-col gap-6">
-<span class="font-technical-label text-technical-label text-primary font-bold uppercase tracking-widest">Legal</span>
-<div class="flex flex-col gap-4">
-<a class="font-body-md text-body-md text-secondary hover:text-primary transition-all" href="#">Aviso Legal</a>
-<a class="font-body-md text-body-md text-primary underline" href="#">Privacidad</a>
-<a class="font-body-md text-body-md text-secondary hover:text-primary transition-all" href="#">Cookies</a>
-</div>
-</div>
-<div class="flex flex-col gap-6">
-<span class="font-technical-label text-technical-label text-primary font-bold uppercase tracking-widest">Social</span>
-<div class="flex gap-4">
-<a class="hover:text-primary text-secondary transition-all" href="#"><span class="material-symbols-outlined">share</span></a>
-<a class="hover:text-primary text-secondary transition-all" href="#"><span class="material-symbols-outlined">photo_camera</span></a>
-</div>
-</div>
-</div>
-<div class="px-4 md:px-20 py-10 border-t border-outline-variant max-w-container-max mx-auto w-full">
-<p class="font-technical-label text-technical-label text-secondary opacity-60">© 2024 SARAH STUDIO. TODOS LOS DERECHOS RESERVADOS.</p>
 </div>
 </footer>
 <script>
